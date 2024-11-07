@@ -50,9 +50,16 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
-			<version>3.2.5</version>
-
+			<version>3.2.5</version>	
 		</dependency>
+
+		<!--Spring Kafka Test-->
+		<dependency>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka-test</artifactId>
+			<version>3.1.4</version>
+		</dependency>
+		
 		
 	</dependencies>
 
