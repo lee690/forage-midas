@@ -38,6 +38,13 @@
 			<artifactId>spring-kafka</artifactId>
 			<version>3.1.4</version>
 		</dependency>
+
+		<!--H2 Databases-->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>2.2.224</version>
+		</dependency>
 		
 	</dependencies>
 
