@@ -22,14 +22,18 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-			<version>3.2.5</version>
 		</dependency>
 
 		<!--Spring Boot Web Starter-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-			<version>3.2.5</version>
+		</dependency>
+
+		<!--Test Spring Boot Starter-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>	
 		</dependency>
 
 		<!--Spring Kafka-->
@@ -46,13 +50,6 @@
 			<version>2.2.224</version>
 		</dependency>
 
-		<!--Starter Test Spring Boot-->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<version>3.2.5</version>	
-		</dependency>
-
 		<!--Spring Kafka Test-->
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
@@ -66,7 +63,7 @@
 			<artifactId>kafka</artifactId>
 			<version>1.19.1</version>	
 		</dependency>
-		
+
 	</dependencies>
 
 	<build>
