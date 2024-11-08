@@ -30,10 +30,11 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!--Test Spring Boot Starter-->
+		<!--Spring Boot Starter Test-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>	
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
 		</dependency>
 
 		<!--Spring Kafka-->
@@ -43,18 +44,19 @@
 			<version>3.1.4</version>
 		</dependency>
 
-		<!--H2 Databases-->
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<version>2.2.224</version>
-		</dependency>
-
 		<!--Spring Kafka Test-->
 		<dependency>
 			<groupId>org.springframework.kafka</groupId>
 			<artifactId>spring-kafka-test</artifactId>
 			<version>3.1.4</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!--H2 Databases-->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>2.2.224</version>
 		</dependency>
 
 		<!--Kafka Test Containers-->
